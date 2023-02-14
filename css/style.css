@@ -8,6 +8,9 @@ Variables
 	--basic-white: #ffffff;
 	--special: #663d15;
 }
+body {
+font-family: 'IBM Plex Sans', sans-serif;
+}
 .main_wrapper,
 .footer_wrapper,
 .header_wrapper {
@@ -24,7 +27,6 @@ border: 1px solid blue;
 font-size: 54px;	
 }
 .wellcome_h2 {
-margin-left: 95px;
 border: 1px solid blue;
 font-size: 36px;	
 }
