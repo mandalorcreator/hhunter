@@ -1,0 +1,52 @@
+Variables
+:root {
+	--basic-black: #000000;
+	--basic-extra-dark: #242424;
+	--basic-dark: #aba9a7;
+	--basic-neutral: #e5e5e5;
+	--basic-extra-light: #f8f5f2;
+	--basic-white: #ffffff;
+	--special: #663d15;
+}
+.main_wrapper,
+.footer_wrapper,
+.header_wrapper {
+max-width: 1140px;
+border: 1px solid red;
+margin-left: auto;
+margin-right: auto;
+}
+
+.wellcome_h1 {
+max-width: 740px;
+margin-left: 95px;
+border: 1px solid blue;
+font-size: 54px;	
+}
+.wellcome_h2 {
+margin-left: 95px;
+border: 1px solid blue;
+font-size: 36px;	
+}
+.wellcome_p {
+max-width: 600px;
+margin-left: 95px;
+border: 1px solid blue;
+font-size: 20px;	
+}
+.start_page {
+max-width: 1140px;
+margin-left: 95px;
+border: 1px solid green;
+
+}
+
+  @media (max-width: 1024px) {
+.start_page,
+.wellcome_p,
+.wellcome_h1,
+.wellcome_h2 {
+font-size: calc( (100vw - 10rem)/25 + 1rem);
+margin-left: 5px;
+}
+}
