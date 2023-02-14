@@ -9,13 +9,13 @@ Variables
 	--special: #663d15;
 }
 body {
-font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 .main_wrapper,
 .footer_wrapper,
 .header_wrapper {
 max-width: 1140px;
-border: 1px solid red;
+/*border: 1px solid red;*/
 margin-left: auto;
 margin-right: auto;
 }
@@ -23,24 +23,23 @@ margin-right: auto;
 .wellcome_h1 {
 max-width: 740px;
 margin-left: 95px;
-border: 1px solid blue;
+/*border: 1px solid blue;*/
 font-size: 54px;	
 }
 .wellcome_h2 {
-border: 1px solid blue;
+/*border: 1px solid blue;*/
 font-size: 36px;	
 }
 .wellcome_p {
 max-width: 600px;
 margin-left: 95px;
-border: 1px solid blue;
+/*border: 1px solid blue;*/
 font-size: 20px;	
 }
 .start_page {
 max-width: 1140px;
 margin-left: 95px;
-border: 1px solid green;
-
+/*border: 1px solid green;*/
 }
 
   @media (max-width: 1024px) {
