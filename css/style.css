@@ -24,7 +24,9 @@ max-width: 1140px;
 margin-left: auto;
 margin-right: auto;
 }
-
+.main_wrapper{
+height: 100%;	
+}
 .wellcome_h1 {
 max-width: 740px;
 margin-left: 95px;
@@ -46,13 +48,36 @@ max-width: 1140px;
 margin-left: 95px;
 /*border: 1px solid green;*/
 }
+.footer_wrapper {
 
+border: 1px solid green;
+
+
+
+}
+.footer_content_wrapper{
+display: flex;
+justify-content: space-between;
+
+}
+.made_wrapper {
+border: 1px solid red;	
+}
+.social_wrapper {
+border: 1px solid blue;	
+
+}
   @media (max-width: 1024px) {
 .start_page,
-.wellcome_p,
+/*.wellcome_p,*/
 .wellcome_h1,
 .wellcome_h2 {
 font-size: calc( (100vw - 10rem)/25 + 1rem);
-margin-left: 5px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.wellcome_p {
+margin-left: 10px;
+margin-right: 10px;	
 }
 }
