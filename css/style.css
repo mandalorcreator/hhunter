@@ -10,6 +10,11 @@ Variables
 }
 body {
 font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+background-color: #292929;
+color: white;
+}
+h1, h2, h3 {
+	text-transform: uppercase;
 }
 .main_wrapper,
 .footer_wrapper,
