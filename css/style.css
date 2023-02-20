@@ -10,7 +10,7 @@ Variables
 }
 body {
 font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-background-color: #292929;
+background-color: #0b3463;
 color: white;
 }
 h1, h2, h3 {
@@ -49,23 +49,22 @@ margin-left: 95px;
 /*border: 1px solid green;*/
 }
 .footer_wrapper {
-
-border: 1px solid green;
-
-
-
 }
 .footer_content_wrapper{
 display: flex;
 justify-content: space-between;
-
+max-width: 1140px;
 }
 .made_wrapper {
-border: 1px solid red;	
+margin-left: 95px;
+padding-top: 20px;
 }
 .social_wrapper {
-border: 1px solid blue;	
-
+margin-right: 195px;
+padding-top: 20px;	
+}
+.line {
+border-bottom: 1px solid rgb(82, 98, 116); /* Параметры линии */
 }
   @media (max-width: 1024px) {
 .start_page,
@@ -79,5 +78,21 @@ margin-right: 10px;
 .wellcome_p {
 margin-left: 10px;
 margin-right: 10px;	
+}
+/*-----------FOOTER STYLE--------------------*/
+.footer_content_wrapper{
+display: flex;
+flex-direction: column;
+}
+.made_wrapper {
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+}
+.social_wrapper {
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
 }
 }
