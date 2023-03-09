@@ -35,7 +35,8 @@ font-size: 54px;
 }
 .wellcome_h2 {
 /*border: 1px solid blue;*/
-font-size: 36px;	
+font-size: 36px;
+margin-left: 95px;	
 }
 .wellcome_p {
 max-width: 600px;
@@ -69,11 +70,15 @@ border-bottom: 1px solid rgb(82, 98, 116); /* Параметры линии */
   @media (max-width: 1024px) {
 .start_page,
 /*.wellcome_p,*/
-.wellcome_h1,
-.wellcome_h2 {
+.wellcome_h1 {
 font-size: calc( (100vw - 10rem)/25 + 1rem);
 margin-left: 10px;
 margin-right: 10px;
+}
+.wellcome_h2 {
+font-size: calc( (100vw - 10rem)/25 + 1rem);
+margin-left: 1px;
+
 }
 .wellcome_p {
 margin-left: 10px;
