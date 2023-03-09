@@ -102,4 +102,11 @@ margin-right: auto;
 .social-ico {
 margin: 15px;	
 }
+
+/*-----------POST IMG---------------------*/
+.post_img {
+width: calc(100vw - 20px);
+padding: 20px 0 10px 0;
+}
+
 }
